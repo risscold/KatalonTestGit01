@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case Function Logout</description>
+   <name>TC_Logout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>afa66dfa-4b9f-4b0a-bacf-3a713f3052a9</testCaseGuid>
+</TestCaseEntity>
