@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Login_Logout" time="30.604" tests="2" failures="0" errors="0">
+   <testsuite name="TS_Login_Logout" tests="2" failures="0" errors="0" time="30.604" skipped="0" timestamp="2021-10-12 08:08:15" hostname="Riza - DESKTOP-FQ1P4P9" id="Test Suites/AD_POC/TS_Login_Logout">
+      <properties>
+         <property name="deviceName" value="OnePlus ONEPLUS A3010 (Android 7.1.1)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Riza\\git\\KatalonTestGit01\\Reports\\20211012_080737\\AD_POC\\TS_Login_Logout\\20211012_080752"/>
+         <property name="logFiles" value="C:\\Users\\Riza\\git\\KatalonTestGit01\\Reports\\20211012_080737\\AD_POC\\TS_Login_Logout\\20211012_080752\\appium.log, C:\\Users\\Riza\\git\\KatalonTestGit01\\Reports\\20211012_080737\\AD_POC\\TS_Login_Logout\\20211012_080752\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Riza - DESKTOP-FQ1P4P9"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.0"/>
+         <property name="deviceModel" value="ONEPLUS A3010"/>
+         <property name="hostAddress" value="169.254.122.43"/>
+         <property name="deviceManufacturer" value="OnePlus"/>
+         <property name="deviceId" value="localhost:5555"/>
+         <property name="deviceName" value="OnePlus ONEPLUS A3010 (Android 7.1.1)"/>
+         <property name="deviceOSVersion" value="7.1.1"/>
+      </properties>
+      <testcase name="Test Cases/AD_Login/TC_Login" time="24.957" classname="Test Cases/AD_Login/TC_Login" status="PASSED">
+         <system-out><![CDATA[2021-10-12 08:08:15 - [TEST_CASE][PASSED] - Test Cases/AD_Login/TC_Login: Test Cases/AD_Login/TC_Login
+
+2021-10-12 08:08:16 - [TEST_STEP][PASSED] - startApplication("C:\Users\Riza\Downloads\Alodokter_user_v3.6.0_staging_debug_300921_1624.apk", false): Started app at: 'C:\Users\Riza\Downloads\Alodokter_user_v3.6.0_staging_debug_300921_1624.apk'
+
+2021-10-12 08:08:20 - [MESSAGE][INFO] - Appium server started on port 56.067
+
+2021-10-12 08:08:32 - [MESSAGE][INFO] - Failed to get OS statusbar's information using default method.
+
+2021-10-12 08:08:32 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Riza\Downloads\Alodokter_user_v3.6.0_staging_debug_300921_1624.apk'
+
+2021-10-12 08:08:32 - [TEST_STEP][PASSED] - tap(findTestObject("spy/android.widget.TextView - Masuk menggunakan Email"), 0): Tapped on element 'Object Repository/spy/android.widget.TextView - Masuk menggunakan Email'
+
+2021-10-12 08:08:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-12 08:08:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/spy/android.widget.TextView - Masuk menggunakan Email'
+
+2021-10-12 08:08:33 - [TEST_STEP][PASSED] - setText(findTestObject("spy/android.widget.EditText - Email"), "autouser3thsize@mail.com", 0): Text 'autouser3thsize@mail.com' has been set to element 'Object Repository/spy/android.widget.EditText - Email'
+
+2021-10-12 08:08:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-12 08:08:35 - [MESSAGE][PASSED] - Text 'autouser3thsize@mail.com' has been set to element 'Object Repository/spy/android.widget.EditText - Email'
+
+2021-10-12 08:08:35 - [TEST_STEP][PASSED] - setText(findTestObject("spy/android.widget.EditText - Kata Sandi"), "123456", 0): Text '123456' has been set to element 'Object Repository/spy/android.widget.EditText - Kata Sandi'
+
+2021-10-12 08:08:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-12 08:08:36 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/spy/android.widget.EditText - Kata Sandi'
+
+2021-10-12 08:08:37 - [TEST_STEP][PASSED] - tap(findTestObject("spy/android.widget.TextView - Masuk"), 0): Tapped on element 'Object Repository/spy/android.widget.TextView - Masuk'
+
+2021-10-12 08:08:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-12 08:08:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/spy/android.widget.TextView - Masuk'
+
+2021-10-12 08:08:37 - [TEST_STEP][PASSED] - tap(findTestObject("spy/android.widget.ImageView"), 0): Tapped on element 'Object Repository/spy/android.widget.ImageView'
+
+2021-10-12 08:08:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-12 08:08:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/spy/android.widget.ImageView']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AD_Logout/TC_Logout" time="4.418" classname="Test Cases/AD_Logout/TC_Logout" status="PASSED">
+         <system-out><![CDATA[2021-10-12 08:08:40 - [TEST_CASE][PASSED] - Test Cases/AD_Logout/TC_Logout: Test Cases/AD_Logout/TC_Logout
+
+2021-10-12 08:08:41 - [TEST_STEP][PASSED] - device_Height = getDeviceHeight(): Current device physical height is 1280
+
+2021-10-12 08:08:41 - [MESSAGE][PASSED] - Current device physical height is 1280
+
+2021-10-12 08:08:41 - [TEST_STEP][PASSED] - device_Width = getDeviceWidth(): Current device physical width is 720
+
+2021-10-12 08:08:41 - [MESSAGE][PASSED] - Current device physical width is 720
+
+2021-10-12 08:08:41 - [TEST_STEP][PASSED] - startX = device_Width / 2: null
+
+2021-10-12 08:08:41 - [TEST_STEP][PASSED] - endX = startX: null
+
+2021-10-12 08:08:41 - [TEST_STEP][PASSED] - startY = device_Height * 0.30: null
+
+2021-10-12 08:08:41 - [TEST_STEP][PASSED] - endY = device_Height * 0.70: null
+
+2021-10-12 08:08:41 - [TEST_STEP][PASSED] - swipe(startX, endY, endX, startY): Swiped from 360,896 to 360,384
+
+2021-10-12 08:08:42 - [MESSAGE][PASSED] - Swiped from 360,896 to 360,384
+
+2021-10-12 08:08:42 - [TEST_STEP][PASSED] - tap(findTestObject("spy/android.widget.TextView - Keluar"), 0): Tapped on element 'Object Repository/spy/android.widget.TextView - Keluar'
+
+2021-10-12 08:08:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-12 08:08:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/spy/android.widget.TextView - Keluar'
+
+2021-10-12 08:08:43 - [TEST_STEP][PASSED] - tap(findTestObject("spy/android.widget.TextView - Ya"), 0): Tapped on element 'Object Repository/spy/android.widget.TextView - Ya'
+
+2021-10-12 08:08:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-12 08:08:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/spy/android.widget.TextView - Ya'
+
+2021-10-12 08:08:44 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2021-10-12 08:08:45 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-12 08:08:15 - [TEST_SUITE][PASSED] - TS_Login_Logout: Test Cases/AD_Logout/TC_Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

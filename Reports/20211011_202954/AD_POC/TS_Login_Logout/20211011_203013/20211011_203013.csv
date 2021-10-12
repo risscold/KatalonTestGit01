@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Login_Logout,,,,2021-10-11 20:30:38,2021-10-11 20:31:35,"56,959s",PASSED
+,,,,,,,
+Test Cases/AD_Login/TC_Login,,,,2021-10-11 20:30:38,2021-10-11 20:31:30,"51,427s",PASSED
+"startApplication(""C:\Users\Riza\Downloads\Alodokter_user_v3.6.0_staging_debug_300921_1624.apk"", false)",,,,2021-10-11 20:30:39,2021-10-11 20:31:17,"38,016s",PASSED
+"tap(findTestObject(""spy/android.widget.TextView - Masuk menggunakan Email""), 0)",,,,2021-10-11 20:31:17,2021-10-11 20:31:20,"3,009s",PASSED
+"setText(findTestObject(""spy/android.widget.EditText - Email""), ""autouser3thsize@mail.com"", 0)",,,,2021-10-11 20:31:20,2021-10-11 20:31:23,"2,479s",PASSED
+"setText(findTestObject(""spy/android.widget.EditText - Kata Sandi""), ""123456"", 0)",,,,2021-10-11 20:31:23,2021-10-11 20:31:24,"1,301s",PASSED
+"tap(findTestObject(""spy/android.widget.TextView - Masuk""), 0)",,,,2021-10-11 20:31:24,2021-10-11 20:31:25,"0,943s",PASSED
+"tap(findTestObject(""spy/android.widget.ImageView""), 0)",,,,2021-10-11 20:31:25,2021-10-11 20:31:30,"4,657s",PASSED
+,,,,,,,
+Test Cases/AD_Logout/TC_Logout,,Test Case Function Logout,,2021-10-11 20:31:30,2021-10-11 20:31:35,"5,048s",PASSED
+device_Height = getDeviceHeight(),,Get Device Height and Store in device_height variable,,2021-10-11 20:31:30,2021-10-11 20:31:31,"0,475s",PASSED
+device_Width = getDeviceWidth(),,Get Width Height and Store in device_Width variable,,2021-10-11 20:31:31,2021-10-11 20:31:31,"0,422s",PASSED
+startX = device_Width / 2,,Storing the startX value by dividing device width by 2. Because x coordinates are constant for Vertical Swiping,,2021-10-11 20:31:31,2021-10-11 20:31:31,"0,004s",PASSED
+endX = startX,,Here startX and endX values are equal for vertical Swiping for that assigning startX value to endX,,2021-10-11 20:31:31,2021-10-11 20:31:31,"0,001s",PASSED
+startY = device_Height * 0.30,,Storing the startY value,,2021-10-11 20:31:31,2021-10-11 20:31:31,"0,003s",PASSED
+endY = device_Height * 0.70,,Storing the endY value,,2021-10-11 20:31:31,2021-10-11 20:31:31,"0,002s",PASSED
+"swipe(startX, endY, endX, startY)",,Swipe Vertical from top to bottom,,2021-10-11 20:31:31,2021-10-11 20:31:32,"1,535s",PASSED
+"tap(findTestObject(""spy/android.widget.TextView - Keluar""), 0)",,,,2021-10-11 20:31:32,2021-10-11 20:31:33,"0,519s",PASSED
+"tap(findTestObject(""spy/android.widget.TextView - Ya""), 0)",,,,2021-10-11 20:31:33,2021-10-11 20:31:34,"1,172s",PASSED
+closeApplication(),,,,2021-10-11 20:31:34,2021-10-11 20:31:35,"0,634s",PASSED

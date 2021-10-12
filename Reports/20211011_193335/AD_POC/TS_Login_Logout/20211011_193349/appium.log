@@ -1,0 +1,41 @@
+[35m[Appium][39m Welcome to Appium v1.22.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 51307
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: C:\Users\Riza\AppData\Local\Temp\\Katalon\Appium\Temp1633955653764
+[35m[Appium][39m   chromedriverPort: 51308
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 51308
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:51307
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m10 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\Riza\\Downloads\\Alodokter_user_v3.6.0_staging_debug_300921_1624.apk","noReset":true,"deviceName":"vivo vivo 1806 (Android 10)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"10","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"QWPB8XRWQ86HGY8D","systemPort":51306},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Riza\\Downloads\\Alodokter_user_v3.6.0_staging_debug_300921_1624.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"vivo vivo 1806 (Android 10)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"10","appium:systemPort":51306,"appium:udid":"QWPB8XRWQ86HGY8D"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.0 creating new AndroidUiautomator2Driver (v1.69.0) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 1815b4ff-b49f-4a5d-93c1-ceba3a2e527a
+[35m[BaseDriver][39m Using local app 'C:\Users\Riza\Downloads\Alodokter_user_v3.6.0_staging_debug_300921_1624.apk'
+[35m[ADB][39m Found 2 'build-tools' folders under 'C:\Users\Riza\AppData\Local\Android\Sdk' (newest first):
+[35m[ADB][39m     C:/Users/Riza/AppData/Local/Android/Sdk/build-tools/31.0.0
+[35m[ADB][39m     C:/Users/Riza/AppData/Local/Android/Sdk/build-tools/30.0.2
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Riza\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: QWPB8XRWQ86HGY8D
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Riza\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.alodokter.android'
+[35m[ADB][39m Main activity name: 'com.alodokter.android.presentation.splash.SplashActivity'
+[35m[UiAutomator2][39m Server package at 'C:\Users\Riza\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is not writeable. Will copy it into the temporary location at 'C:\Users\Riza\AppData\Local\Temp\Katalon\Appium\Temp1633955653764\2021911-8900-1b3tdhq.tun0g' as a workaround. Consider making this file writeable manually in order to improve the performance of session startup.
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m2822 ms - 975[39m
+[35m[HTTP][39m [90m[39m

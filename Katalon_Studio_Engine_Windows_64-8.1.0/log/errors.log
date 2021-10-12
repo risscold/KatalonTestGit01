@@ -1,0 +1,49 @@
+[2021-10-11T15:50:41.101] [ERROR] katalon - executeJob: Error: end of central directory record signature not found
+    at D:\snapshot\katalon-agent\node_modules\yauzl\index.js:187:14
+    at D:\snapshot\katalon-agent\node_modules\yauzl\index.js:631:5
+    at Immediate.<anonymous> (D:\snapshot\katalon-agent\node_modules\fd-slicer\index.js:202:5)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+[2021-10-11T15:53:26.205] [ERROR] katalon - executeJob: Error: end of central directory record signature not found
+    at D:\snapshot\katalon-agent\node_modules\yauzl\index.js:187:14
+    at D:\snapshot\katalon-agent\node_modules\yauzl\index.js:631:5
+    at Immediate.<anonymous> (D:\snapshot\katalon-agent\node_modules\fd-slicer\index.js:202:5)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+[2021-10-11T15:55:22.710] [ERROR] katalon - executeJob: Error: end of central directory record signature not found
+    at D:\snapshot\katalon-agent\node_modules\yauzl\index.js:187:14
+    at D:\snapshot\katalon-agent\node_modules\yauzl\index.js:631:5
+    at Immediate.<anonymous> (D:\snapshot\katalon-agent\node_modules\fd-slicer\index.js:202:5)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+[2021-10-11T16:04:29.239] [ERROR] katalon - executeJob: Error: end of central directory record signature not found
+    at D:\snapshot\katalon-agent\node_modules\yauzl\index.js:187:14
+    at D:\snapshot\katalon-agent\node_modules\yauzl\index.js:631:5
+    at Immediate.<anonymous> (D:\snapshot\katalon-agent\node_modules\fd-slicer\index.js:202:5)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+[2021-10-11T16:13:29.646] [ERROR] katalon - executeJob: Error: end of central directory record signature not found
+    at D:\snapshot\katalon-agent\node_modules\yauzl\index.js:187:14
+    at D:\snapshot\katalon-agent\node_modules\yauzl\index.js:631:5
+    at Immediate.<anonymous> (D:\snapshot\katalon-agent\node_modules\fd-slicer\index.js:202:5)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+[2021-10-11T16:14:36.163] [ERROR] katalon - executeJob: Error: end of central directory record signature not found
+    at D:\snapshot\katalon-agent\node_modules\yauzl\index.js:187:14
+    at D:\snapshot\katalon-agent\node_modules\yauzl\index.js:631:5
+    at Immediate.<anonymous> (D:\snapshot\katalon-agent\node_modules\fd-slicer\index.js:202:5)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+[2021-10-11T16:15:26.029] [ERROR] katalon - executeJob: Error: end of central directory record signature not found
+    at D:\snapshot\katalon-agent\node_modules\yauzl\index.js:187:14
+    at D:\snapshot\katalon-agent\node_modules\yauzl\index.js:631:5
+    at Immediate.<anonymous> (D:\snapshot\katalon-agent\node_modules\fd-slicer\index.js:202:5)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)

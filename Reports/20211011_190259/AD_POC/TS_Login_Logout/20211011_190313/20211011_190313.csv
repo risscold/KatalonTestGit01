@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Login_Logout,,,,2021-10-11 19:03:34,2021-10-11 19:03:36,1.807s,FAILED
+,,,,,,,
+Test Cases/AD_Login/TC_Login,,,,2021-10-11 19:03:35,2021-10-11 19:03:36,0.858s,FAILED
+"startApplication(""C:\Users\Riza\Downloads\Alodokter_user_v3.6.0_staging_debug_300921_1624.apk"", false)",,,,2021-10-11 19:03:35,2021-10-11 19:03:36,0.366s,FAILED
+,,,,,,,
+Test Cases/AD_Logout/TC_Logout,,Test Case Function Logout,,2021-10-11 19:03:36,2021-10-11 19:03:36,0.451s,FAILED
+device_Height = getDeviceHeight(),,Get Device Height and Store in device_height variable,,2021-10-11 19:03:36,2021-10-11 19:03:36,0.101s,PASSED
